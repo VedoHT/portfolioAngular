@@ -102,6 +102,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options":{
+            "baseHref":"/portfolio-estudo/",
             "buildTarget": "portfolio-estudo:build:production"
           }
         }
